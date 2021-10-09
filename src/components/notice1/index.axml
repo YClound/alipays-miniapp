@@ -1,0 +1,12 @@
+<view
+  class="notification notification-{{$id}} bgc-config-primary bg-opacity-5 flex items-center tc-config-primary"
+  onTap="handleTap"
+  style="--container-length: {{overflowWidth}}; --duration-time: {{duration}}s"
+  a:if="{{show}}"
+>
+  <view class="iconfont icon-notice mr-2" />
+  <view class="scroll-container scroll-container-{{$id}} flex1">
+    <view class="animate" style="animation-name: {{duration?'wordsLoop':'initial'}};" >{{data.text}}</view>
+  </view>
+  <view class="iconfont icon-arrow-right-thin" a:if="{{noticeMode==='link' || showArrow}}" />
+</view>

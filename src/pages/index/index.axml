@@ -1,0 +1,7 @@
+<view class="home-style-wrapper">
+  <!-- 字符截断 -->
+  <navigator url="/pages/tmpl-text-ellipsis/index">文本截断</navigator>
+
+  <!-- 公告 -->
+  <navigator url="/pages/tmpl-notice/index">公告</navigator>
+</view>

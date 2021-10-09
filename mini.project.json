@@ -1,0 +1,10 @@
+{
+  "component2": true,
+  "miniprogramRoot": "dev",
+  "scripts": {
+    "beforeUpload": "yarn run change:prod"
+  },
+  "axmlStrictCheck": true,
+  "enableAppxNg": true,
+  "enableHMR": true
+}

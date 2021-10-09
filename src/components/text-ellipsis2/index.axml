@@ -1,0 +1,12 @@
+<view
+  a:if="{{text}}"
+  class="text-ellipsis-comp2 text-ellipsis-comp-{{$id}} tc-9 {{expanded?'expanded':''}}"
+  style="-webkit-line-clamp: {{lineClamp}}; {{style}}"
+>
+  <text class="expanded-btn" onTap="handleExpanded">
+    ...
+    <text class="iconfont icon-arrow-right-thin"/>
+  </text>
+  {{text}}
+  <view class="all-text" a:if="{{!hideAll}}" style="{{style}}">{{text}}</view>
+</view>

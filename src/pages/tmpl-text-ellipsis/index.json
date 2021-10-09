@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "text-ellipsis2": "/components/text-ellipsis2/index",
+    "text-ellipsis": "/components/text-ellipsis/index"
+  }
+}

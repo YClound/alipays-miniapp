@@ -1,0 +1,5 @@
+{
+  "devOutput": "dev",
+  "prodOutput": "dist",
+  "assetsDir": "assets"
+}

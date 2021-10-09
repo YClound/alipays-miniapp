@@ -1,0 +1,10 @@
+.home-style-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.home-style-wrapper>navigator {
+  flex:1;
+  max-width: 33.33%;
+  line-height: 60rpx;
+}

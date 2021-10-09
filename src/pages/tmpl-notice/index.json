@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "notice": "/components/notice/index",
+    "notice1": "/components/notice1/index"
+  }
+}

@@ -1,0 +1,10 @@
+<view class="mt-8 fz-20">公告1</view>
+<notice data="{{{text: '公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告结束', enableNavigate: true, url: '/pages/index/index'}}}"/>
+<notice data="{{{text: '告公告公告结束' }}}"/>
+<notice data="{{{text: '首页公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告结束'}}}"/>
+<notice data="{{{text: '首页公告公告公告公告公告公告公告公告公告告公告结束公告结束'}}}"/>
+<view class="mt-8 fz-20">公告2</view>
+<notice1 data="{{{text: '公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告结束', enableNavigate: true, url: '/pages/index/index'}}}"/>
+<notice1 data="{{{text: '告公告公告结束' }}}"/>
+<notice1 data="{{{text: '首页公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告公告结束'}}}"/>
+<notice1 data="{{{text: '首页公告公告公告公告公告公告公告公告公告告公告结束公告结束'}}}"/>

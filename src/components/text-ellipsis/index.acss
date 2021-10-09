@@ -1,0 +1,29 @@
+.text-ellipsis-comp {
+  position: relative;
+  line-height: 42rpx;
+  max-height: 84rpx;
+  overflow: hidden;
+  font-size: 28rpx;
+  word-break: break-all;
+}
+.text-ellipsis-comp.expanded {
+  max-height: initial;
+}
+
+.text-ellipsis-comp.expanded .icon-arrow-right-thin {
+  display: none;
+}
+
+.text-ellipsis-comp .icon-arrow-right-thin {
+  transform: rotate(90deg);
+  line-height: 42rpx;
+  position: absolute;
+  right: 0;
+  top: 42rpx;
+  display: block;
+}
+
+.text-ellipsis-comp .all-text {
+  position: absolute;
+  opacity: 0;
+}
