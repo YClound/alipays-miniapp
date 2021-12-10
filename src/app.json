@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/tmpl-notice/index",
     "pages/tmpl-text-ellipsis/index",
+    "pages/tmpl-animation/index",
     "pages/tmpl/index"
   ],
   "window": {

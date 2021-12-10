@@ -1,0 +1,31 @@
+.title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 204rpx;
+  background-image: url("/assets/static/draw-title-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center top;
+  backface-visibility: hidden;
+
+  &.point {
+    transform: rotateX(180deg);
+    background-image: url("/assets/static/draw-title-bg-point.png");
+  }
+}
+
+.title-wrapepr {
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  height: 204rpx;
+
+  &:hover {
+    transform: rotateX(180deg);
+  }
+}
