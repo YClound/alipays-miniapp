@@ -4,4 +4,8 @@
 
   <!-- 公告 -->
   <navigator url="/pages/tmpl-notice/index">公告</navigator>
+
+  <navigator url="/pages/tmpl-auto-scroll/index">自动滚动</navigator>
+
+  <navigator url="/pages/tmpl-swiper/index">覆盖式swiper</navigator>
 </view>

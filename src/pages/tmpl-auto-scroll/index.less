@@ -1,0 +1,36 @@
+.showcase {
+  width: 100%;
+
+  &-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36rpx * 2;
+    padding: 4rpx * 2 24rpx * 2 0;
+    font-size: 16rpx * 2;
+  }
+
+  &-con {
+    position: relative;
+    box-sizing: border-box;
+    width: 343rpx * 2;
+    height: 104rpx * 2;
+    padding: 18rpx * 2 6rpx * 2;
+    margin: 0 auto 24rpx * 2;
+    border-radius: 15rpx * 2;
+    background-image: url(https://sl-online-oss.shulidata.com/union_market/v3_0/showcase.png);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    white-space: nowrap;
+  }
+
+  &-list {
+    &>image {
+      position: relative;
+      display: inline-block;
+      height: 70rpx * 2;
+      width: 70rpx * 2;
+      margin-right: 12rpx * 2;
+    }
+  }
+}

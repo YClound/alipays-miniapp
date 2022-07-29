@@ -1,0 +1,6 @@
+<view class="carousel" onTouchStart="handleTouchStart" onTouchEnd="handleTouchEnd">
+  <view a:for="{{list}}" data-value="{{allImg[index]}}" class="carousel-item {{allImg[index]}}">
+    <image src="{{item.imageUrl}}" />
+    <view>{{item.title}}</view>
+  </view>
+</view>

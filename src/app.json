@@ -4,7 +4,9 @@
     "pages/tmpl-notice/index",
     "pages/tmpl-text-ellipsis/index",
     "pages/tmpl-animation/index",
-    "pages/tmpl/index"
+    "pages/tmpl/index",
+    "pages/tmpl-auto-scroll/index",
+    "pages/tmpl-swiper/index"
   ],
   "window": {
     "titleBarColor": "#FFFFFF"

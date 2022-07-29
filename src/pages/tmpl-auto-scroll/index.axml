@@ -1,0 +1,14 @@
+<scroll-view
+  className='showcase-con'
+  scroll-x="{{scrollX}}"
+  scroll-left="{{scrollLeft}}"
+  onScrollToLower="handleScrollToLower"
+  onTouchStart="handleTouchStart"
+  onTouchEnd="handleTouchEnd"
+>
+  <view class="showcase-list">
+    <image src="{{item.iconUrl}}" a:for="{{prizeList}}" />
+  </view>
+</scroll-view>
+
+<navigator url="/pages/index/index" redirect>首页</navigator>
