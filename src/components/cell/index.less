@@ -1,0 +1,53 @@
+@border-color: #eee;
+
+.cell {
+  &-comp {
+    display: flex;
+    flex-direction: column;
+    padding: 20rpx 0;
+    background: #ffffff;
+    border-bottom: 2rpx solid @border-color;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    >.icon {
+      margin-right: 12rpx;
+      font-size: 14px;
+    }
+
+    .label {
+      font-size: 28rpx;
+      line-height: 40rpx;
+    }
+
+    &-left {
+      >.icon {
+        margin-right: 12rpx;
+        font-size: 13px;
+      }
+
+      .cell-tag {
+        font-size: 12px;
+        margin-left: 12rpx;
+        background: #f5222d;
+        color: #ffffff;
+        padding: 2px 3px;
+        border-radius: 2px;
+        top: -2rpx;
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  &-content {
+    font-size: 28rpx;
+    color: #aaa;
+    overflow-wrap: break-word;
+  }
+}

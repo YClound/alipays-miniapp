@@ -1,0 +1,7 @@
+<text 
+  class="icon {{className}}"
+  data-index="{{dataIndex}}"
+  data-info="{{dataInfo}}"
+  onTap="handleTap"
+  style={{style}}
+/>

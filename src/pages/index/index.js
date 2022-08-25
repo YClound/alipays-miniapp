@@ -1,4 +1,66 @@
 Page({
+  data() {
+    return {
+      list: [{
+        title: "基础",
+        items: [
+          {
+            label: "Cell 单元格",
+            value: "",
+            description: "",
+            arrow: true,
+            href: "/pages/home/cellPage/index"
+          },
+          {
+            label: "Icon 图标",
+            value: "",
+            description: "",
+            arrow: true,
+            href: "/pages/home/iconPage/index"
+          },
+          {
+            label: "Card",
+            value: "",
+            description: "",
+            arrow: true,
+            href: "/pages/home/cardPage/index"
+          },
+        ]
+      },{
+        title: "动画",
+        items: [
+          {
+            label: "文本截断",
+            value: "",
+            description: "",
+            arrow: true,
+            href: "/pages/tmpl-text-ellipsis/index"
+          },
+          {
+            label: "公告",
+            value: "",
+            description: "",
+            arrow: true,
+            href: "/pages/tmpl-notice/index"
+          },
+          {
+            label: "横向自动滚动",
+            value: "",
+            description: "",
+            arrow: true,
+            href: "/pages/tmpl-auto-scroll/index"
+          },
+          {
+            label: "覆盖式滚动",
+            value: "",
+            description: "",
+            arrow: true,
+            href: "/pages/tmpl-swiper/index"
+          },
+        ]
+      }]
+    }
+  },
   onLoad(query) {
     // 页面加载
     console.info(`Page onLoad with query: ${JSON.stringify(query)}`);

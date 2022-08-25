@@ -1,3 +1,6 @@
 {
-  
+  "usingComponents": {
+    "card": "../../components/card/index",
+    "cell": "../../components/cell"
+  }
 }

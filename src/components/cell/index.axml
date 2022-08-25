@@ -1,0 +1,12 @@
+<view class="cell-comp {{className}} cell-{{align}}">
+  <view class="cell-header">
+    <icon a:if="{{icon}}" name={{icon}}></icon>
+    <text class="label">{{label}}</text>
+    <text class="cell-icon" a:if="{{arrow}}">
+      <icon name="arrow-right"></icon>
+    </text>
+  </view>
+  <view class="cell-content">
+    <slot />
+  </view>
+</view>

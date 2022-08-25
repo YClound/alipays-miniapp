@@ -1,0 +1,6 @@
+<view class="card-comp {{className}}">
+  <view class="card-comp-title" a:if="{{title}}">{{title}}</view>
+  <view class="card-comp-content">
+    <slot />
+  </view>
+</view>

@@ -1,11 +1,13 @@
 <view class="home-style-wrapper">
-  <!-- 字符截断 -->
-  <navigator url="/pages/tmpl-text-ellipsis/index">文本截断</navigator>
-
-  <!-- 公告 -->
-  <navigator url="/pages/tmpl-notice/index">公告</navigator>
-
-  <navigator url="/pages/tmpl-auto-scroll/index">自动滚动</navigator>
-
-  <navigator url="/pages/tmpl-swiper/index">覆盖式swiper</navigator>
+  <!--<hp-noticebar
+      bindEvent="close"
+  >欢迎关注 SL-MINIAPP UI 组件0.0~</hp-noticebar><view class="hp-header"><view class="hp-title {{show}}">SL MINIAPP</view><view class="hp-title-sub {{show}}">轻量级小程序 UI 组件库</view></view> -->
+  <view class="home-content">
+    <card a:for="{{list}}" title="{{item.title}}">
+      <navigator a:for="{{item.items}}" a:for-item="ite" url="{{ite.href}}">
+        <cell class="cell mh-30rpx pv-30rpx" label="{{ite.label}}" arrow="{{ite.arrow}}"></cell>
+      </navigator>
+    </card>
+  </view>
+  
 </view>
