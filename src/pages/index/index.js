@@ -37,6 +37,13 @@ Page({
             href: "/pages/tmpl-text-ellipsis/index"
           },
           {
+            label: "卡片翻转",
+            value: "",
+            description: "",
+            arrow: true,
+            href: "/pages/tmpl-animation/index"
+          },
+          {
             label: "公告",
             value: "",
             description: "",

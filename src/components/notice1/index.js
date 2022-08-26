@@ -25,7 +25,7 @@ Component({
       this.dataFilterHandler();
   },
 
-  didunmount() {
+  didUnmount() {
     this.timer && clearTimeout(this.timer);
   },
 

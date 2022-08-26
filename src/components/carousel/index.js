@@ -25,7 +25,7 @@ Component({
     });
   },
 
-  didUnMount() {
+  didUnmount() {
     this._Swiper && this._Swiper.stop();
   },
 
