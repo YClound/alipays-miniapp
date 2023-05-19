@@ -1,0 +1,48 @@
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 462rpx;
+  height: 188rpx;
+  margin: 24px auto;
+  position: relative;
+}
+
+.swiper-item {
+  width: 188rpx;
+  height: 140rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 500ms ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-item image {
+  width: 112rpx;
+  display: block;
+  transition: all 500ms ease-in-out;
+}
+
+.swiper-item.active image {
+  width: 180rpx;
+}
+
+.swiper-item.prev {
+  left: 0;
+  z-index: 10;
+}
+
+.swiper-item.active {
+  left: 50%;
+  margin-left: -94rpx;
+  z-index: 10;
+}
+
+.swiper-item.next {
+  left: 100%;
+  margin-left: -188rpx;
+  z-index: 1;
+}

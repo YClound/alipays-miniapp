@@ -1,0 +1,5 @@
+<view class="swiper-wrapper">
+  <view class="swiper-item item-{{index}} {{active === index ? 'active': (prev === index ? 'prev' : 'next')}} {{}}" a:for="{{swiperList}}">
+    <image mode="widthFix" src="https://sl-online-oss.shulidata.com/resource/benefit/v4_6_0/red-{{item}}.png" />
+  </view>
+</view>

@@ -6,7 +6,8 @@
     "pages/tmpl-animation/index",
     "pages/tmpl/index",
     "pages/tmpl-auto-scroll/index",
-    "pages/tmpl-swiper/index"
+    "pages/tmpl-swiper/index",
+    "pages/three-swiper-3d/index"
   ],
   "window": {
     "titleBarColor": "#FFFFFF"
